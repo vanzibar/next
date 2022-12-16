@@ -2,23 +2,23 @@
 
 * {
   box-sizing: border-box;
+  font-weight: 100;
 }
 
 h1, h2 {
   text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
-  font-weight: 100;
 }
 
 body {
   background: rgb(9, 0, 19);
   color: #fff;
-  font-family: "Montserrat"
+  font-family: "Montserrat";
+  letter-spacing: 0.05rem;
 }
 
 a {
   color: #fff;
   text-decoration: none;
-  letter-spacing: 0.05rem;
 }
 
 a:hover, h1:hover, h2:hover {
@@ -37,6 +37,11 @@ nav .middleNav {
   align-items: center;
 }
 
+nav .middleNav h1 {
+  min-width: 9.5rem;
+  text-align: center;
+}
+
 nav a {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -45,6 +50,10 @@ nav a {
 }
 
 nav h1,
-h2 {
+nav h2 {
+  text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
+}
+
+.neon {
   text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
 }
