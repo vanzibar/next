@@ -1,6 +1,5 @@
 .main {
-  min-height: 100vh;
-  padding-top: 4rem;
+  padding-top: 35vh;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -8,11 +7,9 @@
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid ;
   justify-content: center;
   align-items: center;
+  height: 100px;
 }
 
 .footer a {
@@ -23,25 +20,96 @@
 }
 
 .title {
-  margin: 0 auto;
   line-height: 1.15;
   font-size: 3.5rem;
+  margin: 0 auto;
 }
 
 .title,
 .description {
   text-align: center;
+  max-width: fit-content;
 }
 
 .description {
-  font-size: 0.8rem;
-  font-weight: 500;
-  text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
+  font-size: 1rem;
+  font-weight: 100;
+  text-shadow: 0 0 10px rgb(255, 0, 85), 0 0 20px rgb(255, 0, 85), 0 0 30px rgb(255, 0, 85), 0 0 40px #fc7883, 0 0 70px #fc7883, 0 0 80px #fc7883, 0 0 100px #fc7883, 0 0 150px #fc7883;
+  margin: 1rem auto;
+  font-family: 'Trirong', serif;
 }
 
 .description:hover {
-  text-shadow: 0 0 10px #75edff, 0 0 20px #75edff, 0 0 30px #75edff, 0 0 40px #75edff, 0 0 70px #75edff, 0 0 80px #75edff, 0 0 100px #75edff, 0 0 150px #75edff;
+  text-shadow: 0 0 10px #00ddff, 0 0 20px #00ddff, 0 0 30px #00ddff, 0 0 40px #00ddff, 0 0 70px #00ddff, 0 0 80px #00ddff, 0 0 100px #00ddff, 0 0 150px #00ddff;
 }
 
-@media (prefers-color-scheme: dark) {
+.headerWrapper{
+  text-align: center;
+  padding-bottom: 25vh;
+}
+
+.headerImg {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.05rem solid rgb(255, 0, 85);
+    margin-top: 1.5rem;
+    -webkit-box-shadow: 0px 0px 37px 0px rgb(255, 0, 85);
+    -moz-box-shadow: 0px 0px 37px 0px rgb(255, 0, 85);
+    box-shadow: 0px 0px 37px 0px rgb(255, 0, 85);
+}
+
+.headerImg:hover {
+  border: 0.05rem solid #00ddff;
+  -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 221, 255, 1);
+  -moz-box-shadow: 0px 0px 37px 0px rgba(0, 221, 255, 1);
+  box-shadow: 0px 0px 37px 0px rgba(0, 221, 255, 1);
+}
+
+.section {
+  min-height: 70vh;
+  margin: 3rem 1rem;
+  border: 2px solid white;
+  border-radius: .35rem;
+  -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 221, 255, 1);
+  -moz-box-shadow: 0px 0px 37px 0px rgba(0, 221, 255, 1);
+  box-shadow: 0px 0px 37px 0px rgba(0, 221, 255, 1), inset 0px 0px 37px 0px rgba(0, 221, 255, 1);
+}
+
+.section p {
+  font-family: 'Hind Madurai', sans-serif;
+  padding: 2rem;
+}
+
+.section .headline {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.section h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -110%);
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+  background: rgba(16, 0, 34, 0.8);
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+.section h2{
+  font-size: 2rem;
+  max-width: fit-content;
+  margin: 0 auto;
+  letter-spacing: 0.20rem;
+  text-decoration: underline;
+  text-underline-offset: 0.55rem;
+}
+
+.techList{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

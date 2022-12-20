@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,11 +8,11 @@
 }
 
 h1, h2 {
-  text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
+  text-shadow: 0 0 10px rgb(255, 0, 85), 0 0 20px rgb(255, 0, 85), 0 0 30px rgb(255, 0, 85), 0 0 40px #fc7883, 0 0 70px #fc7883, 0 0 80px #fc7883, 0 0 100px #fc7883, 0 0 150px #fc7883;
 }
 
 body {
-  background: rgb(9, 0, 19);
+  background: rgb(16, 0, 34);
   color: #fff;
   font-family: "Montserrat";
   letter-spacing: 0.05rem;
@@ -22,7 +24,7 @@ a {
 }
 
 a:hover, h1:hover, h2:hover {
-  text-shadow: 0 0 10px #75edff, 0 0 20px #75edff, 0 0 30px #75edff, 0 0 40px #75edff, 0 0 70px #75edff, 0 0 80px #75edff, 0 0 100px #75edff, 0 0 150px #75edff;
+  text-shadow: 0 0 10px #00ddff, 0 0 20px #00ddff, 0 0 30px #00ddff, 0 0 40px #00ddff, 0 0 70px #00ddff, 0 0 80px #00ddff, 0 0 100px #00ddff, 0 0 150px #00ddff;
 }
 
 nav {
@@ -30,6 +32,18 @@ nav {
   justify-content: space-between;
   margin-right: 1rem;
   margin-left: 1rem;
+  align-items: center;
+}
+
+nav .logo {
+  border-radius: 50%;
+  border: 0.1rem solid rgb(255, 0, 85);
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 nav .middleNav {
@@ -46,14 +60,14 @@ nav a {
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.5rem;
-  text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
+  text-shadow: 0 0 10px rgb(255, 0, 85), 0 0 20px rgb(255, 0, 85), 0 0 30px rgb(255, 0, 85), 0 0 40px #fc7883, 0 0 70px #fc7883, 0 0 80px #fc7883, 0 0 100px #fc7883, 0 0 150px #fc7883;
 }
 
 nav h1,
 nav h2 {
-  text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
+  text-shadow: 0 0 10px rgb(255, 0, 85), 0 0 20px rgb(255, 0, 85), 0 0 30px rgb(255, 0, 85), 0 0 40px #fc7883, 0 0 70px #fc7883, 0 0 80px #fc7883, 0 0 100px #fc7883, 0 0 150px #fc7883;
 }
 
 .neon {
-  text-shadow: 0 0 10px #ff63f7, 0 0 20px #ff63f7, 0 0 30px #ff63f7, 0 0 40px #fc78f6, 0 0 70px #fc78f6, 0 0 80px #fc78f6, 0 0 100px #fc78f6, 0 0 150px #fc78f6;
+  text-shadow: 0 0 10px rgb(255, 0, 85), 0 0 20px rgb(255, 0, 85), 0 0 30px rgb(255, 0, 85), 0 0 40px #fc7883, 0 0 70px #fc7883, 0 0 80px #fc7883, 0 0 100px #fc7883, 0 0 150px #fc7883;
 }
