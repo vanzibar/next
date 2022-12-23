@@ -12,10 +12,11 @@ h1, h2 {
 }
 
 body {
-  background: rgb(16, 0, 34);
+  background: rgb(5, 28, 72);
   color: #fff;
   font-family: "Montserrat";
   letter-spacing: 0.05rem;
+  margin: 0;
 }
 
 a {
