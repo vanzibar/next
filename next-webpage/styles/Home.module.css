@@ -73,8 +73,8 @@
 }
 
 .secondaryBackground { 
-    background-color: #fff;
-    color: rgb(5, 28, 72);
+  background-color: #fff;
+  color: rgb(5, 28, 72);
 }
 
 .section p {
@@ -83,12 +83,12 @@
 }
 
 .headlineWrapper {
-    background-color: rgb(5, 28, 72);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
-    margin: 20vh auto;
+  background-color: rgb(5, 28, 72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  margin: 20vh auto;
 }
 
 .headline {
@@ -120,12 +120,11 @@
   padding-left: 0.5rem;
 }
 
-.section h2{
-  font-size: 2rem;
+.section h2 {
+  font-size: 3rem;
   max-width: fit-content;
   margin: 0 auto;
   letter-spacing: 0.20rem;
-  text-decoration: underline;
   text-underline-offset: 0.55rem;
 }
 
@@ -133,6 +132,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 10vh;
 }
 
 .achievements {
@@ -142,20 +142,21 @@
   padding: .75rem;
   flex-direction: column;
   display: flex;
+  flex: 1;
 
 }
 
-.achievement {
-    flex-direction: column;
-    display: flex;
-    flex: 1;
-    justify-content: center;
+.achievement, .techItem {
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
-.section div, .achievements div, .achievement div {
+.slide, .fade {
   display: flex;
   flex: 1;
-  align-items: center;
 }
 
 .achievements p {
@@ -173,4 +174,63 @@
 .achievements p span {
   color: rgb(255 0 85);
   font-weight: 1000;
+}
+
+.techSection {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.techItem {
+  width: 12vw;
+}
+
+.techImageWrapper {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.techItem p {
+  font-weight: 700;
+}
+
+.techSection h2 {
+  font-size: 3.5rem;
+}
+
+.highlights h2 {
+    color: rgb(255 0 85);
+    font-weight: 500;
+    font-size: 3.5rem;
+    text-shadow: none;
+    flex: 1;
+    display: flex;
+}
+
+.highlights{
+  flex-direction: column;
+}
+
+.highlightsWrapper {
+  max-width: 70vw;
+}
+
+.highlightsWrapper h2 {
+  margin: 0 auto;
+}
+
+.highlight {
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.highlightImage {
+  border-radius: 1rem;
+  border: 0.05rem solid rgb(5, 28, 72);
+  margin-top: 1.5rem;
 }
